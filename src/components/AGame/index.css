@@ -1,0 +1,12 @@
+.image {
+    border-radius: 25px;
+    border: 2px solid blue;
+
+
+
+}
+
+.image:hover{
+    border: 2px solid pink;
+    border-radius: 25px;
+}

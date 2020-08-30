@@ -1,0 +1,13 @@
+#game-buttons-box {
+    display: flex;
+    flex-direction: row;
+    background: #afbdd6;
+    justify-content: center;
+}
+
+.game-items {
+    display:flex;
+   
+    
+  
+}
