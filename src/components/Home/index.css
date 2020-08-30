@@ -1,15 +1,49 @@
 #home-box {
     display: flex;
-    height: 85vh;
-    justify-content: center;
-    align-content: center;
+    height: 100vh;
+    /* justify-content: center; */
+    /* align-content: center; */
+    flex-direction: column;
+   
+}
+.home-about {
+
+    align-self: flex-end;
+
+}
+
+.about {
+   margin: 25px 35px 0px 0px;
 }
 
 .home-title {
-align-self: center;
+
+
+display: flex;
+margin: auto;
+flex-direction: column;
+
+
+
+
 }
 
 .home-title h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 80px;
+   
 }
+
+.video {
+    height:100%;
+    width: 100%;
+    -webkit-filter:blur(5px);
+    filter:blur(5px);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+
+  
