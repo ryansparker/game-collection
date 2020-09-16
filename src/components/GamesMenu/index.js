@@ -1,25 +1,26 @@
 import React from 'react'
 import { withInheritedProps } from 'object-path'
 import AGame from "../AGame"
-import gamesData from '../../gamesData.json'
+
+import gamesData from '../../gamesData'
 import './index.css';
 
 
-function GamesMenu(props) {
+function GamesMenu({ setHighlightedGame }) {
 
     const gameComponents = gamesData.map(function(game){
         return (
             <AGame 
-            key={game.id}
-            name={game.name} 
-            image={game.image} />
+            game={game}
+            setHighlightedGame={setHighlightedGame}
+            />
         )
     })
 
 return (
     <div id="game-buttons-box">
         <div className="game-items">
-       {gameComponents}
+            {gameComponents}
         </div>
     </div>
 )

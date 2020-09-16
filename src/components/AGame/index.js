@@ -3,12 +3,16 @@ import './index.css';
 
 
 
-function AGame(props) {
-    console.log(props)
+function AGame({ game, setHighlightedGame }) {
+    const hover = () => setHighlightedGame(game)
+    const exit = () => setHighlightedGame(null)
+
 return (
-    <div>
-         <img src={props.image} alt="img" className="image" />
+    <div onMouseEnter={hover} onMouseLeave={exit} className="btn">
+         <img src={game.image} />
+         {/* <img src={props.hover} alt="img" className="image-hover" class="img-top"/> */}
     </div>
+    
 )
 }
 
