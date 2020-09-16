@@ -21,9 +21,6 @@ const Home = props => {
             <div className="home-title">
             <h1 className="javascript">{highlightedGame?.blank || "Javascript"}</h1>   
             <h1 className="gradient-text">{highlightedGame?.name || "GAME COLLECTION"}</h1>
-            {/* <div className="home-info">
-            <h2 className="info">{highlightedGame?.blank || "A place to hold some javascript game experiments."} </h2>
-            </div> */}
             </div>
             <GamesMenu setHighlightedGame={setHighlightedGame} />
             <Footer />

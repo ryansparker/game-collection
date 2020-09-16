@@ -9,8 +9,10 @@ function AGame({ game, setHighlightedGame }) {
 
 return (
     <div onMouseEnter={hover} onMouseLeave={exit} className="btn">
+         <a href={game.link}>
          <img src={game.image} />
          {/* <img src={props.hover} alt="img" className="image-hover" class="img-top"/> */}
+         </a>
     </div>
     
 )

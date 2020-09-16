@@ -1,7 +1,7 @@
 #game-buttons-box {
     display: flex;
     flex-direction: row;
-background-color: #242629;
+    background-color: #242629;
     justify-content: center;
   
 }

@@ -12,7 +12,8 @@ export default [
         "blank": " ",
         "image": snakeBtn,
         "title": "Snake",
-        "video": snakeVideo
+        "video": snakeVideo,
+        "link": "https://ryansparker.github.io/game-collection-snake/"
     },
     {
         "id": 2,
@@ -20,7 +21,8 @@ export default [
         "blank": " ",
         "image": clownBtn,
         "title": "Whack a Clown",
-        "video": clownVideo
+        "video": clownVideo,
+        "link": "https://ryansparker.github.io/game-collection-clown/"
 
     },
     {
@@ -29,7 +31,8 @@ export default [
         "blank": " ",
         "image": diceBtn,
         "title": "Dice Game",
-        "video": diceVideo
+        "video": diceVideo,
+        "link": "https://ryansparker.github.io/game-collection-dice/"
 
     }
 ]
